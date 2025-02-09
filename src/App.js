@@ -1,10 +1,10 @@
-import Counter from "./features/counter/Counter";
+import PostLists from './features/posts/PostsLists'
 
 function App() {
   return (
-    <div className="App">
-      <Counter />
-    </div>
+    <main className="App">
+      <PostLists />
+    </main>
   );
 }
 
